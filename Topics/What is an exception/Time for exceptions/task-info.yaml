@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: at coding time
+- text: at compile time
+- text: at runtime
+- text: at any time
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7245#comment
+status: Solved
+record: -1
